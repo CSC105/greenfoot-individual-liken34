@@ -31,8 +31,8 @@ public class MyWorld extends World
         if(Greenfoot.mouseClicked(play)){
             Greenfoot.setWorld(new Playground());
         }
-        //if(Greenfoot.mouseClicked(howtoplay)){
-        //   Greenfoot.setWorld(new Playground());
-        //}
+        if(Greenfoot.mouseClicked(howtoplay)){
+           Greenfoot.setWorld(new How2play());
+        }
     }
 }
